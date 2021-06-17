@@ -15,6 +15,7 @@
     background: rgb(13, 14, 13);
     text-align: center;
     color: rgb(65, 255, 65);
+    overflow: hidden;
     /* background: black; */
 }
 
@@ -270,7 +271,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .box span {
-        font-size: 105px;
+        font-size: 95px;
         letter-spacing: 10px;
     }
 
