@@ -100,14 +100,17 @@
 
     30% {
         font-family: 'Seaweed Script', cursive;
+        color: gray;
     }
 
     40% {
         font-family: 'Sevillana', cursive;
+        color: green;
     }
 
     50% {
         font-family: 'Akronim', cursive;
+        color: orange;
     }
 
     60% {
@@ -120,6 +123,7 @@
 
     80% {
         font-family: 'UnifrakturCook', cursive;
+        color: rgb(65, 255, 65);
     }
 
     90% {
@@ -138,26 +142,32 @@
 
     10% {
         font-family: 'Cinzel Decorative', cursive;
+        color: #ffdf00;
     }
 
     20% {
         font-family: 'Faster One', cursive;
+        color: #ffdf00;
     }
 
     30% {
         font-family: 'Monoton', cursive;
+        color: #7b9095;
     }
 
     40% {
         font-family: 'Press Start 2P', cursive;
+        color: #7b9095;
     }
 
     50% {
         font-family: 'Lobster', cursive;
+        color: #6ba7cc;
     }
 
     60% {
         font-family: 'UnifrakturCook', cursive;
+        color: rgb(65, 255, 65);
     }
 
     70% {
@@ -192,14 +202,17 @@
 
     30% {
         font-family: 'Seaweed Script', cursive;
+        color: #ffdf00;
     }
 
     40% {
         font-family: 'Diplomata SC', cursive;
+        color: yellow;
     }
 
     50% {
         font-family: 'Monofett', cursive;
+        color: olive;
     }
 
     60% {
@@ -208,10 +221,12 @@
 
     70% {
         font-family: 'Akronim', cursive;
+        color: #7b9095;
     }
 
     80% {
         font-family: 'Press Start 2P', cursive;
+        color: rgb(65, 255, 65);
     }
 
     90% {
@@ -230,14 +245,17 @@
 
     10% {
         font-family: 'Dynalight', cursive;
+        color: #7b9095;
     }
 
     20% {
         font-family: 'Flavors', cursive;
+        color: orange;
     }
 
     30% {
         font-family: 'Press Start 2P', cursive;
+        color: #ffdf00;
     }
 
     40% {
@@ -250,10 +268,12 @@
 
     60% {
         font-family: 'Nosifer', cursive;
+        color: lightskyblue;
     }
 
     70% {
         font-family: 'Lobster', cursive;
+        color: #6ba7cc;
     }
 
     80% {
@@ -262,6 +282,7 @@
 
     90% {
         font-family: 'Cinzel Decorative', cursive;
+        color: rgb(65, 255, 65);
     }
 
     100% {
