@@ -1,0 +1,280 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none !important;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(13, 14, 13);
+    text-align: center;
+    color: rgb(65, 255, 65);
+    /* background: black; */
+}
+
+.box span {
+    font-size: 200px;
+    letter-spacing: 20px;
+    /* font-family: 'Stint Ultra Condensed', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Press Start 2P', cursive; */
+    /* font-family: 'Monoton', cursive; */
+    /* font-family: 'Mountains of Christmas', cursive; */
+    /* font-family: 'Cinzel Decorative', cursive; */
+    /* font-family: 'Seaweed Script', cursive; */
+    /* font-family: 'Faster One', cursive; */
+    /* font-family: 'Bungee Shade', cursive; */
+    /* font-family: 'Codystar', cursive; */
+    /* font-family: 'Eater', cursive */
+    /* font-family: 'Dynalight', cursive; */
+    /* font-family: 'UnifrakturCook', cursive; */
+    /* font-family: 'Akronim', cursive; */
+    /* font-family: 'Nosifer', cursive; */
+    /* font-family: 'Monofett', cursive; */
+    /* font-family: 'Diplomata SC', cursive; */
+    /* font-family: 'Flavors', cursive; */
+    /* font-family: 'Almendra Display', cursive; */
+    /* font-family: 'Sevillana', cursive; */
+}
+
+.box p span {
+    color: white;
+    letter-spacing: -1px;
+}
+
+.box p {
+    position: absolute;
+    top: 10%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box p a {
+    text-decoration: none;
+    color: white;
+}
+
+.box p a:hover {
+    color: rgb(65, 255, 65);
+}
+
+.box p span, .box p a {
+    font-size: 45px;
+}
+
+#letter1 {
+    animation: animLetter1 11s infinite;
+}
+
+#letter2 {
+    animation: animLetter2 15s infinite;
+}
+
+#letter3 {
+    animation: animLetter3 8.7s infinite;
+}
+
+#letter4 {
+    animation: animLetter4 13.5s infinite;
+}
+
+@keyframes animLetter1 {
+    0% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    10% {
+        font-family: 'Diplomata SC', cursive;   
+    }
+
+    20% {
+        font-family: 'Bungee Shade', cursive;
+    }
+
+    30% {
+        font-family: 'Seaweed Script', cursive;
+    }
+
+    40% {
+        font-family: 'Sevillana', cursive;
+    }
+
+    50% {
+        font-family: 'Akronim', cursive;
+    }
+
+    60% {
+        font-family: 'Eater', cursive;
+    }
+
+    70% {
+        font-family: 'Mountains of Christmas', cursive;
+    }
+
+    80% {
+        font-family: 'UnifrakturCook', cursive;
+    }
+
+    90% {
+        font-family: 'Monoton', cursive;
+    }
+
+    100% {
+        font-family: 'Codystar', cursive;
+    }
+}
+
+@keyframes animLetter2 {
+    0% {
+        font-family: 'Dynalight', cursive;
+    }
+
+    10% {
+        font-family: 'Cinzel Decorative', cursive;
+    }
+
+    20% {
+        font-family: 'Faster One', cursive;
+    }
+
+    30% {
+        font-family: 'Monoton', cursive;
+    }
+
+    40% {
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    50% {
+        font-family: 'Lobster', cursive;
+    }
+
+    60% {
+        font-family: 'UnifrakturCook', cursive;
+    }
+
+    70% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    80% {
+        font-family: 'Diplomata SC', cursive;
+    }
+
+    90% {
+        font-family: 'Almendra Display', cursive;
+    }
+
+    100% {
+        font-family: 'Seaweed Script', cursive;
+    }
+}
+
+@keyframes animLetter3 {
+    0% {
+        font-family: 'Cinzel Decorative', cursive;
+    }
+
+    10% {
+        font-family: 'Dynalight', cursive;
+    }
+
+    20% {
+        font-family: 'Nosifer', cursive;
+    }
+
+    30% {
+        font-family: 'Seaweed Script', cursive;
+    }
+
+    40% {
+        font-family: 'Diplomata SC', cursive;
+    }
+
+    50% {
+        font-family: 'Monofett', cursive;
+    }
+
+    60% {
+        font-family: 'Monoton', cursive;
+    }
+
+    70% {
+        font-family: 'Akronim', cursive;
+    }
+
+    80% {
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    90% {
+        font-family: 'Lobster', cursive;
+    }
+
+    100% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+}
+
+@keyframes animLetter4 {
+    0% {
+        font-family: 'Stint Ultra Condensed', cursive;
+    }
+
+    10% {
+        font-family: 'Dynalight', cursive;
+    }
+
+    20% {
+        font-family: 'Flavors', cursive;
+    }
+
+    30% {
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    40% {
+        font-family: 'Monoton', cursive;
+    }
+
+    50% {
+        font-family: 'Codystar', cursive;
+    }
+
+    60% {
+        font-family: 'Nosifer', cursive;
+    }
+
+    70% {
+        font-family: 'Lobster', cursive;
+    }
+
+    80% {
+        font-family: 'Almendra Display', cursive;  
+    }
+
+    90% {
+        font-family: 'Cinzel Decorative', cursive;
+    }
+
+    100% {
+        font-family: 'Faster One', cursive;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .box span {
+        font-size: 105px;
+        letter-spacing: 10px;
+    }
+
+    .box p span, .box p a {
+        font-size: 30px;
+    }
+}
