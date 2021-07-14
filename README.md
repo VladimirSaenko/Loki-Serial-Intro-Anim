@@ -1,4 +1,4 @@
-# LOKI-ChangingText-Anim
+# Loki-Serial-Intro-Anim
 
 ### Loki serial series intro
  
