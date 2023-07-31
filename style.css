@@ -24,22 +24,6 @@
     letter-spacing: 20px;
 }
 
-.box p span {
-    color: white;
-    letter-spacing: -1px;
-}
-
-.box p {
-    position: absolute;
-    top: 10%;
-    color: white;
-    text-transform: uppercase;
-}
-
-.box p span, .box p a {
-    font-size: 45px;
-}
-
 #letter1 {
     animation: animLetter1 11s infinite;
 }
@@ -263,11 +247,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .box span {
-        font-size: 95px;
+        font-size: 65px;
         letter-spacing: 10px;
-    }
-
-    .box p span, .box p a {
-        font-size: 30px;
     }
 }
