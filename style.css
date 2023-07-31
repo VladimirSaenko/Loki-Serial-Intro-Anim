@@ -36,15 +36,6 @@
     text-transform: uppercase;
 }
 
-.box p a {
-    text-decoration: none;
-    color: white;
-}
-
-.box p a:hover {
-    color: rgb(65, 255, 65);
-}
-
 .box p span, .box p a {
     font-size: 45px;
 }
